@@ -17,7 +17,6 @@ Public Class GF
 
     Public Shared ReadOnly Property ConnectionString() As String
         Get
-            ' Return "data source=TOUCHSMART\SQLEXPRESS; user id=sa; password=pert22; initial catalog=Passwords"
             Return "Server=localhost\SQLEXPRESS;Database=Passwords;Trusted_Connection=True;"
         End Get
     End Property
