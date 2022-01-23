@@ -4,7 +4,7 @@ This project contains the implementation of a desktop application used to manage
 
 This is a multi-user application where each piece of data is encrypted using the user’s main password as the encryption key, which means that no one is able to access the other user’s data without their password, not even the data base administrator.
 
-When the apligacion is open, a login window is displayed.
+When the application is open, a login window is displayed.
 
 ![Image](img1.png)
 
@@ -14,7 +14,7 @@ To create a new user, the button 'Register User' must be pressed.
 
 The specifications - such as characters allowed, maximum and minimum size, etc. - are found in the New User pop-up window.
 
-The category 'General' is the defult category. New categories may be added by pressing the 'New Category' button.
+The category 'General' is the default category. New categories may be added by pressing the 'New Category' button.
 
 ![Image](img3.png)
 
@@ -22,7 +22,7 @@ To create and store a new record, click the button 'New Record', fill in the tex
 
 ![Image](img4.png)
 
-The newly added record can be seen on the left panew by clicking the item on the right panel.
+The newly added record can be seen on the left panel by clicking the item on the right panel.
 
 ![Image](img5.png)
 
@@ -32,13 +32,19 @@ The user information may be modified or the entire profile and data may be delet
 
 ![Image](img6.png)
 
-If the user logs in and and remains iddle for 8 minutes, the application automatically logs out.
+If the user logs in and remains idle for 8 minutes, the application automatically logs out.
 
 ![Image](img7.png)
 
 You can view and download the source files [on GitHub](https://github.com/phb2911/Passwords).
 
-## MIT License
+### Future Plans
+
+Convert the code from Visual Basic .Net to C#.
+
+Although many tools used to convert Visual Basic .Net to C# and vice-versa are available, my intention is to do this manually which, in my opinion, is more reliable.
+
+### MIT License
 
 **Copyright (c) 2022 Pablo Borges**
 
