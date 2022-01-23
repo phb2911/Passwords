@@ -8,38 +8,42 @@ When the apligacion is open, a login window is displayed.
 
 ![Image](img1.png)
 
-You can use the [editor on GitHub](https://github.com/phb2911/Passwords/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+To create a new user, the button 'Register User' must be pressed.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Image](img2.png)
 
-### Markdown
+The specifications - such as characters allowed, maximum and minimum size, etc. - are found in the New User pop-up window.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The category 'General' is the defult category. New categories may be added by pressing the 'New Category' button.
 
-```markdown
-Syntax highlighted code block
+![Image](img3.png)
 
-# Header 1
-## Header 2
-### Header 3
+To create and store a new record, click the button 'New Record', fill in the text boxes with the required information, and click 'Save'.
 
-- Bulleted
-- List
+![Image](img4.png)
 
-1. Numbered
-2. List
+The newly added record can be seen on the left panew by clicking the item on the right panel.
 
-**Bold** and _Italic_ and `Code` text
+![Image](img5.png)
 
-[Link](url) and ![Image](src)
-```
+It is important to notice that when a new record is created, all its data is encrypted using the user's main password as the encryption key, which means that it is impossible for any other user, or the database admin, to decrypt the data without the user's password.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+The user information may be modified or the entire profile and data may be deleted. To do that, press 'Edit User' and the pop-up window below will be displayed. 
 
-### Jekyll Themes
+![Image](img6.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/phb2911/Passwords/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+If the user logs in and and remains iddle for 8 minutes, the application automatically logs out.
 
-### Support or Contact
+![Image](img7.png)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+You can view and download the source files [on GitHub](https://github.com/phb2911/Passwords).
+
+## MIT License
+
+**Copyright (c) 2022 Pablo Borges**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
