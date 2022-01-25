@@ -36,6 +36,10 @@ If the user logs in and remains idle for 8 minutes, the application automaticall
 
 ![Image](img7.png)
 
+All user data is stored into a MS SQL Server database. The database schema can be found in the file database_schema.sql.
+
+![Image](img8.png)
+
 You can view and download the source files [on GitHub](https://github.com/phb2911/Passwords).
 
 ### Future Plans
