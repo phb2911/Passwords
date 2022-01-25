@@ -7,4 +7,6 @@ This is a multi-user application where each piece of data is encrypted using the
 
 When a new record is created, a category must be attributed to it to make it easier to access it later. The records are displayed in a tree view component on the left panel separated by categories. All the user has to do is click the record and all information related to it is decrypted and displayed on the right panel.
 
+All user data is stored into a MS SQL server.
+
 For more details, visit https://phb2911.github.io/Passwords_2_0/
