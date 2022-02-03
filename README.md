@@ -6,39 +6,39 @@ This is a multi-user application where each piece of data is encrypted using the
 
 When the application is open, a login window is displayed.
 
-![Image](img1.png)
+![Image](docs/img1.png)
 
 To create a new user, the button 'Register User' must be pressed.
 
-![Image](img2.png)
+![Image](docs/img2.png)
 
 The specifications - such as characters allowed, maximum and minimum size, etc. - are found in the New User pop-up window.
 
 The category 'General' is the default category. New categories may be added by pressing the 'New Category' button.
 
-![Image](img3.png)
+![Image](docs/img3.png)
 
 To create and store a new record, click the button 'New Record', fill in the text boxes with the required information, and click 'Save'.
 
-![Image](img4.png)
+![Image](docs/img4.png)
 
 The newly added record can be seen on the left panel by clicking the item on the right panel.
 
-![Image](img5.png)
+![Image](docs/img5.png)
 
 It is important to notice that when a new record is created, all its data is encrypted using the user's main password as the encryption key, which means that it is impossible for any other user, or the database admin, to decrypt the data without the user's password.
 
 The user information may be modified or the entire profile and data may be deleted. To do that, press 'Edit User' and the pop-up window below will be displayed. 
 
-![Image](img6.png)
+![Image](docs/img6.png)
 
 If the user logs in and remains idle for 8 minutes, the application automatically logs out.
 
-![Image](img7.png)
+![Image](docs/img7.png)
 
 All user data is stored into a MS SQL Server database. The database schema can be found in the file database_schema.sql.
 
-![Image](img8.png)
+![Image](docs/img8.png)
 
 You can view and download the source files [on GitHub](https://github.com/phb2911/Passwords).
 
