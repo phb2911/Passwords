@@ -40,8 +40,6 @@ All user data is stored into a MS SQL Server database. The database schema can b
 
 ![Image](docs/img8.png)
 
-You can view and download the source files [on GitHub](https://github.com/phb2911/Passwords).
-
 ### Future Plans
 
 Convert the code from Visual Basic .Net to C#.
